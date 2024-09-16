@@ -1,0 +1,32 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 28px;
+  font-style: oblique;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.container span {
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+@media (max-width: 575.98px) {
+  .container h1 {
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .container span {
+    font-size: 16px;
+    font-style: italic;
+  }
+}

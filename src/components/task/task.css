@@ -1,0 +1,57 @@
+.task-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 12px;
+    background-color: #58418f;
+    border-bottom: 1px solid rgb(35, 8, 78);
+}
+
+.task-container .task-title {
+    font-size: 18px;
+    font-style:normal;
+    cursor: pointer;
+}
+
+.task-container .trash:hover {
+    opacity: 50%;
+    transition: all 0.5s;
+}
+
+.task-container .arrow:hover {
+    opacity: 50%;
+    transition: all 0.5s;
+}
+
+.task-container .task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.task-container .task-title span {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.input-checkbox {
+    width: 20px;                       
+    height: 20px;    
+    border: none;
+    outline: none;          
+}
+
+.task-container:hover {
+    background-color: #3a2669;
+    transition: all 0.3s;
+}
+
+.task-container .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}

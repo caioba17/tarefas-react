@@ -1,0 +1,43 @@
+.container-task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 12px;
+    background-color: #58418f;
+    border-bottom: 1px solid rgb(35, 8, 78);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container-detalhes h1 {
+    font-size: 28px;
+    font-style:oblique;
+    letter-spacing: 2px;
+}
+
+.container-task hr {
+    border: 1px dashed rgb(63, 6, 63);
+    width: 100%;
+}
+
+.container-volta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px
+}
+
+.container-volta .botao-voltar {
+    background-color: #6b4fad;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+
+.container-volta .botao-voltar:hover {
+    opacity: 50%;
+    transition: all 0.5s;
+}
