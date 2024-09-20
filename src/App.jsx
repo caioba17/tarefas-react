@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h1>Todo List <span>- {tasksFeitas.length} tarefa(s) para fazer</span></h1>
+      <h1>Lista de Tarefas <span>- {tasksFeitas.length} tarefa(s) para fazer</span></h1>
       <div>
         {tasks.map((task) => (
           <Task key={task.id} task={task} deleteTask={deleteTask} alterarTask={alterarTask}/>

@@ -18,7 +18,10 @@ export default function AddTask(props) {
                     {
                         return alert("Informe a tarefa!");
                     }
-                    props.submitTask(title, description)}}>Enviar</button>
+                    props.submitTask(title, description);
+                    setDescription("");
+                    setTitle("");
+                    }}>Enviar</button>
         </div>
 
     )
